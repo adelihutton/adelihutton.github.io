@@ -43,3 +43,11 @@ References
 The Framingham Heart Study data was obtained from was obtained from the National Heart, Lung, and Blood Institute (https://biolincc.nhlbi.nih.gov/teaching/).
 Question 2 was inspired by some topics explored in a BST 210 homework assignment and extended topics explored previously.
 ![image](https://user-images.githubusercontent.com/112595189/209386778-f28f9b64-b812-4d61-91f8-3da0cffb4546.png)
+
+
+library(foreign)
+framingham <- read.dta(file="framingham.dta") 
+
+hist(framingham$bmi)
+![image](https://user-images.githubusercontent.com/112595189/209387672-f4acc3c1-2760-417a-acd6-207a2170f107.png)
+
